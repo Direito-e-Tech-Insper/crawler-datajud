@@ -6,8 +6,8 @@ import pandas as pd
 
 from dotenv import load_dotenv
 
-from atributos import ATRIBUTOS
-from endpoints import (
+from crawler_datajud.atributos import ATRIBUTOS
+from crawler_datajud.endpoints import (
     ENDPOINTS_EST,
     ENDPOINTS_TRE,
     ENDPOINTS_TJM,

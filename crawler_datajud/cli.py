@@ -4,8 +4,8 @@ from typer import Argument, Context, Exit, Option, Typer
 from typing_extensions import Annotated
 
 from crawler_datajud import __version__
-from atributos import ATRIBUTOS
-from endpoints import (
+from crawler_datajud.atributos import ATRIBUTOS
+from crawler_datajud.endpoints import (
     ENDPOINTS_EST,
     ENDPOINTS_TRE,
     ENDPOINTS_TJM,
@@ -13,7 +13,7 @@ from endpoints import (
     ENDPOINTS_TRT,
     ENDPOINTS_TSU
 )
-from main import CrawlerDataJud
+from crawler_datajud.main import CrawlerDataJud
 
 console = Console()
 app = Typer()
